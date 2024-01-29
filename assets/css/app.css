@@ -1,0 +1,1007 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@charset "UTF-8";
+html {
+  scroll-behavior: smooth;
+}
+@font-face {
+  font-family: "GothamNarrow-BookItalic";
+  src: url("./GothamNarrow-BookItalic.woff2") format("woff2"), url("/fonts/GothamNarrow-BookItalic.woff") format("woff"),
+    url("/fonts/GothamNarrow-BookItalic.eot?#iefix") format("embedded-opentype"), url("./GothamNarrow-BookItalic.otf") format("otf"),
+    url("/fonts/GothamNarrow-BookItalic.ttf") format("truetype");
+  src: url("/fonts/GothamNarrow-BookItalic.eot");
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: local("Gotham Book"), local("Gotham-Book"), url("/fonts/Gotham-Book.woff2") format("woff2"), url("/fonts/Gotham-Book.woff") format("woff"),
+    url("/fonts/Gotham-Book.eot?#iefix") format("embedded-opentype"), url("/fonts/Gotham-Book.ttf") format("truetype");
+  src: url("/fonts/Gotham-Book.eot");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: local("Gotham Light"), local("Gotham-Light"), url("/fonts/Gotham-Light.woff2") format("woff2"), url("/fonts/Gotham-Light.woff") format("woff"),
+    url("/fonts/Gotham-Light.eot?#iefix") format("embedded-opentype"), url("/fonts/Gotham-Light.ttf") format("truetype");
+  src: url("/fonts/Gotham-Light.eot");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: local("Gotham Bold"), local("Gotham-Bold"), url("/fonts/Gotham-Bold.woff2") format("woff2"), url("/fonts/Gotham-Bold.woff") format("woff"),
+    url("/fonts/Gotham-Bold.eot?#iefix") format("embedded-opentype"), url("/fonts/Gotham-Bold.ttf") format("truetype");
+  src: url("/fonts/Gotham-Bold.eot");
+  font-weight: bold;
+  font-style: normal;
+}
+
+a:hover {
+  color: #ee2255;
+}
+ul {
+  margin: 0;
+}
+.button:hover,
+.button:focus {
+  background-color: #ee2255;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.discover-tahiti__button:hover,
+.discover-tahiti__button:focus {
+  background-color: #3dbe98;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.wrapper {
+  width: 100%;
+  padding-top: 20px;
+  text-align: center;
+}
+h2 {
+  font-family: sans-serif;
+  color: #fff;
+}
+.carousel {
+  width: 90%;
+  margin: 0px auto;
+}
+.slick-slide {
+  margin: 10px;
+}
+.slick-slide .product-card {
+  margin: 0 auto;
+}
+.slick-slide img {
+  width: 100%;
+  border: 2px solid #fff;
+}
+.wrapper .slick-dots li button:before {
+  font-size: 20px;
+  color: white;
+}
+
+.menu li a {
+  padding: 0;
+  line-height: inherit;
+}
+.button,
+.button {
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.grid-container {
+  max-width: 76.875rem;
+}
+/* HEADER */
+.topbar-responsive {
+  background: #fff;
+  padding: 1.05rem 0rem;
+  max-height: 100px;
+}
+
+.logo-title-block {
+  vertical-align: middle;
+  color: #ee2255;
+  margin-left: 8px;
+}
+.logo-title-block:visited {
+  vertical-align: middle;
+  color: #ee2255;
+}
+.logo-title-block img {
+  margin-right: 4px;
+  padding-bottom: 6px;
+}
+
+a.logo-title-block {
+  font-size: 38px;
+  font-family: "Gotham", "Open sans", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0;
+  vertical-align: middle;
+  text-transform: uppercase;
+}
+.top-bar {
+  position: relative;
+  z-index: 999;
+}
+.topbar-responsive .menu {
+  background: #fff;
+}
+
+.topbar-responsive .menu li:last-of-type {
+  margin-right: 0;
+  position: relative;
+}
+.topbar-responsive .menu a:after {
+  content: "";
+  display: inline-block;
+  width: 1px;
+  height: 36px;
+  background: #ebeda4;
+  position: absolute;
+  margin-left: 29px;
+  top: 0px;
+}
+
+.topbar-responsive .menu li:not(:last-child) {
+  margin-right: 29px;
+}
+.topbar-responsive .menu li:not(:first-child) {
+  margin-left: 29px;
+}
+.topbar-responsive .menu li:last-child a::after {
+  display: none;
+}
+
+.topbar-responsive .menu a {
+  color: #ee2255;
+  -webkit-transition: color 0.15s ease-in;
+  -o-transition: color 0.15s ease-in;
+  transition: color 0.15s ease-in;
+  font-size: 18px;
+  font-family: "Gotham", "Open sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  letter-spacing: 0px;
+}
+
+.topbar-responsive .menu a:hover {
+  color: #3dbe98;
+}
+
+.topbar-responsive .menu .topbar-responsive-button {
+  color: #3dbe98;
+  border-color: #3dbe98;
+  border-radius: 5000px;
+  -webkit-transition: color 0.15s ease-in, border-color 0.15s ease-in;
+  -o-transition: color 0.15s ease-in, border-color 0.15s ease-in;
+  transition: color 0.15s ease-in, border-color 0.15s ease-in;
+}
+
+.topbar-responsive .menu .topbar-responsive-button:hover {
+  color: #000;
+  border-color: #000;
+}
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes slideDown {
+  0% {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+  100% {
+    -webkit-transform: translateY(0%);
+    transform: translateY(0%);
+  }
+}
+@keyframes slideDown {
+  0% {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+  100% {
+    -webkit-transform: translateY(0%);
+    transform: translateY(0%);
+  }
+}
+
+.menu-icon::after {
+  background: #3dbe98;
+  -webkit-box-shadow: 0 7px 0 #3dbe98, 0 14px 0 #3dbe98;
+  box-shadow: 0 7px 0 #3dbe98, 0 14px 0 #3dbe98;
+  content: "";
+}
+/* HERO */
+.hero {
+  padding: 0;
+}
+.hero .hero-section {
+  background-size: cover;
+  height: 65.45vh;
+  text-align: center;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-align: center;
+  -webkit-box-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  position: relative;
+}
+.hero-section-text {
+  position: absolute;
+  z-index: 5;
+}
+.section-slide {
+  position: relative;
+  z-index: 1;
+  height: 100%;
+}
+.slider-wrapper {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+}
+
+.slick-slide {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+.section-slide img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.slick-track {
+  height: 100%;
+  width: 100%;
+}
+.slick-list {
+  height: 100%;
+  width: 100%;
+}
+.slick-slide img {
+  width: 100%;
+  border: none;
+}
+.hero-section .hero-section-text {
+  color: #fefefe;
+  text-shadow: 1px 1px 2px #0a0a0a;
+}
+.hero-section .hero-section-text {
+  font-family: "Gotham", "Open sans", sans-serif;
+  font-weight: 300;
+}
+.hero-section .hero-section-text h4 {
+  font-family: "Gotham", "Open sans", sans-serif;
+  font-weight: 300;
+  font-size: 2rem;
+}
+.hero-section .hero-section-text h1 span {
+  font-family: "Gotham", "Open sans", sans-serif;
+  font-weight: 700;
+}
+.hero-section .hero-section-text h1 {
+  font-family: "Gotham", "Open sans", sans-serif;
+  font-weight: 300;
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+.grid-large {
+  max-width: 90rem;
+}
+
+/* DESCRIPTION */
+.section-subtitle {
+  font-family: "Gotham", "Open sans", sans-serif;
+  font-weight: 300;
+  font-size: 0.875rem;
+  color: #333;
+}
+.section-title {
+  margin-bottom: 0;
+  font-size: 2.5rem;
+  font-family: "Gotham", "Open sans", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 1.5;
+}
+.section-title span {
+  font-family: "Gotham", "Open sans", sans-serif;
+  font-weight: 700;
+}
+.discover-tahiti h2 {
+  color: #3dbe98;
+}
+.discover-tahiti {
+  padding-top: 1.8rem;
+  background: #fbfbed;
+}
+.cell.discover-tahiti__titles {
+  margin-top: 2.2rem;
+  margin-bottom: 1.8rem;
+}
+
+/* CARDs */
+.discover-tahiti__cards {
+  min-width: 0;
+  padding-top: 8px;
+  padding-left: 0px;
+  padding-right: 0px;
+  width: 100%;
+  margin-bottom: 3.24rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 15px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.product-card:not(:last-child) {
+  margin-right: 20px;
+}
+.product-card {
+  background-color: #fff;
+  width: 285px;
+  max-height: 355px;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+.product-card-thumbnail {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 170px;
+  margin-bottom: 0.62rem;
+}
+.product-card-thumbnail img {
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+.product-card-title {
+  font-family: "Gotham", "Open sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  margin-left: 16px;
+  margin-bottom: 5px;
+  color: #3dbe98;
+}
+.product-card__bottom {
+  background: #3dbe98;
+  padding: 13px 17px 17px 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  max-width: 285px;
+}
+.product-card-from {
+  font-family: "Gotham", "Open sans", sans-serif;
+  font-weight: 300;
+  font-size: 0.875rem;
+  color: #fff;
+  margin-right: 3px;
+}
+.product-card-price {
+  font-family: "Gotham", "Open sans", sans-serif;
+  font-weight: 400;
+  color: #fff;
+  display: inline-block;
+  font-size: 1.25rem;
+}
+.product-card-desc {
+  font-family: "Gotham", "Open sans", sans-serif;
+  font-weight: 300;
+  font-size: 0.875rem;
+  color: #333;
+  display: block;
+  margin: 0px 15px 20px 20px;
+  line-height: 1.27;
+  min-height: 53.3px;
+  max-height: 53.3px;
+}
+.product-card-sale {
+  color: #cacaca;
+  display: inline-block;
+  font-size: 0.85rem;
+  margin-left: 0.3rem;
+  text-decoration: line-through;
+}
+.product-card-colors {
+  display: block;
+  margin-top: 0.8rem;
+}
+.product-card-color-option {
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+}
+/* Button */
+.arrow-button {
+  padding: 0;
+  margin: 0;
+  margin-top: 6px;
+  background: transparent;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.arrow-button:hover {
+  background: transparent;
+  -webkit-transform: translateX(16px);
+  -ms-transform: translateX(16px);
+  transform: translateX(16px);
+  padding: 0 10px 0 20px;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.arrow-button:active {
+  background: transparent;
+  border: solid 1px;
+  border-radius: 20px;
+  -webkit-transition: all 0s ease;
+  -o-transition: all 0s ease;
+  transition: all 0s ease;
+}
+.arrow-button:visited {
+  background-color: transparent;
+}
+a.arrow-button:focus {
+  background-color: transparent;
+}
+.button:active {
+  border: solid 1px #fff;
+}
+
+.arrow-button:hover,
+.arrow-button:focus {
+  background-color: transparent;
+}
+.card-select .button:after {
+  content: "";
+}
+.card-select .button:hover {
+  background-color: #ee2255;
+}
+
+.card-select .button:focus {
+  background-color: #ee2255;
+}
+
+.card-select.is-selected {
+  border: 1px solid #ee2255;
+  -webkit-box-shadow: 0 0 10px #e6e6e6;
+  box-shadow: 0 0 10px #e6e6e6;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.card-select.is-selected .button {
+  background-color: #ee2255;
+}
+
+.card-select.is-selected .button:after {
+  content: "Selected";
+}
+/*--------------------------- ALL-offer */
+.all-tahiti-offers {
+  margin-bottom: 4.1rem;
+}
+.all-tahiti-offers button {
+  background: #3dbe98;
+  color: #fff;
+  max-width: 225px;
+  font-family: "Gotham", "Open sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+}
+.all-tahiti-offers__title {
+  font-family: "Gotham", "Open sans", sans-serif;
+  font-weight: 300;
+  font-size: 1.25rem;
+  color: #333;
+  margin-bottom: 2.2rem;
+  margin-left: 3.8px;
+}
+
+select.island-option-selection {
+  font-family: "Gotham", "Open sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+  color: #333;
+  height: 60px;
+  padding: 15px 24px 15px 20px;
+  -webkit-box-shadow: 2px 6px 10px -6px rgba(0, 0, 0, 0.34);
+  box-shadow: 2px 6px 10px -6px rgba(0, 0, 0, 0.34);
+  max-width: 670px;
+  background: #fff right center no-repeat;
+  background-position: calc(100% - 22px) center;
+  border: none;
+}
+select.island-option-selection::-webkit-input-placeholder {
+  color: #333;
+  font-family: "Gotham", "Open sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+select.island-option-selection::-moz-placeholder {
+  color: #333;
+  font-family: "Gotham", "Open sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+select.island-option-selection:-ms-input-placeholder {
+  color: #333;
+  font-family: "Gotham", "Open sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+select.island-option-selection::-ms-input-placeholder {
+  color: #333;
+  font-family: "Gotham", "Open sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+select.island-option-selection::placeholder {
+  color: #333;
+  font-family: "Gotham", "Open sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+/* ----------------------------------Expereience-tahiti */
+.expereience-tahiti__slide-bg {
+  height: 650px;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+.expereience-tahiti__slide-bg {
+  height: 650px;
+}
+.expereience-tahiti__slide-bg img {
+  height: 650px;
+}
+.expereience-tahiti__slide {
+  position: relative;
+}
+.expereience-tahiti__content-slide {
+  position: absolute;
+  z-index: 5;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  padding-top: 4.1rem;
+  padding-bottom: 64px;
+}
+.expereience-tahiti {
+  padding: 0;
+  margin-bottom: 64px;
+
+  background: no-repeat;
+  color: #fff;
+  -webkit-box-shadow: inset 0px 210px 157px -79px rgba(0, 0, 0, 0.61);
+  box-shadow: inset 0px 210px 157px -79px rgba(0, 0, 0, 0.61);
+}
+.expereience-tahiti .section-subtitle {
+  color: #fff;
+  font-family: "Gotham", "Open sans", sans-serif;
+  font-weight: 300;
+  font-size: 0.85rem;
+}
+.expereience-tahiti__titles {
+  text-align: left;
+  margin-bottom: 15.1rem;
+}
+.discover-tahiti__title {
+  color: #ee2255;
+}
+.discover-tahiti__text {
+  color: #fff;
+  font-family: "GothamNarrow-BookItalic", "Open sans", sans-serif;
+  font-size: 1.25rem;
+  font-style: italic;
+  line-height: 1.5;
+  max-width: 61rem;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 34px;
+}
+
+.discover-tahiti__button {
+  padding: 15px 2px 15px 5px;
+  background: #ee2255;
+  color: #fff;
+  font-family: "Gotham", "Open sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  width: 285px;
+  text-transform: uppercase;
+  margin-bottom: 80px;
+}
+
+/* ------------------------ WHY TAHITI */
+
+.why-tahiti {
+  margin-bottom: 58px;
+}
+.why-tahiti__title {
+  color: #ff5d35;
+  text-align: center;
+  margin-bottom: 36px;
+}
+.why-tahiti__block {
+  max-width: 355px;
+  color: #333;
+  font-family: "Gotham", "Open sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.67;
+  text-align: center;
+  min-height: 120px;
+  max-height: 120px;
+}
+.why-tahiti__content {
+  gap: 67px;
+}
+
+/* BOOK NOW */
+.book-now {
+  padding: 135px;
+  background: no-repeat;
+}
+.book-now__title {
+  font-family: "Gotham", "Open sans", sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: #fff;
+  margin-bottom: 22px;
+}
+.book-now__content {
+  padding: 52.5px 95px;
+  background-color: #00000083;
+  text-align: center;
+}
+.book-now__button {
+  padding: 15px 2px 15px 5px;
+  background: #21b6c7;
+  color: #fff;
+  font-family: "Gotham", "Open sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  width: 285px;
+  text-transform: uppercase;
+}
+.book-now__text {
+  font-family: "Gotham", "Open sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+  opacity: 1;
+  color: #fff;
+  margin-bottom: 35px;
+  line-height: 30px;
+}
+
+/* FOOTER */
+
+.footer-container {
+  margin-top: 34px;
+}
+.footer__title-column {
+  font-family: "Gotham", "Open sans", sans-serif;
+  font-weight: 700;
+  font-size: 1.125rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  padding-top: 8px;
+}
+.footer__container {
+}
+.footer__title {
+  padding-top: 14px;
+}
+.footer__columns {
+  color: #ee2255;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  min-width: 605px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 88px;
+  -moz-column-gap: 88px;
+  column-gap: 88px;
+}
+.footer__column:not(:last-child) {
+  margin-right: 0px;
+}
+.footer__column {
+  font-family: "Gotham", "Open sans", sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+}
+.footer__column ul {
+  display: block;
+}
+
+.footer__site-title {
+  margin-top: 8px;
+  margin-left: 8px;
+  margin-right: 50px;
+}
+
+.footer__column ul li {
+  list-style-type: none;
+  line-height: 1.19rem;
+}
+.footer__column ul li a {
+  color: #ee2255;
+}
+.footer__column ul li a:hover {
+  color: #21b6c7;
+}
+.footer__column ul li a:visited:hover {
+  color: #ee2255;
+}
+.footer__column ul li a:visited {
+  color: #333;
+}
+.footer__column ul {
+  margin-left: 0;
+}
+.social-buttons {
+  padding-top: 16px;
+  text-align: center;
+}
+.social-buttons .addtoany_list a,
+.widget .addtoany_list a:not(:last-child) {
+  padding-right: 5px;
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------- */
+/* under 640  */
+@media screen and (max-width: 39.9375em) {
+  .hero-section .hero-section-text h1 {
+    font-size: 4rem;
+  }
+  .hero-section .hero-section-text h4 {
+    font-size: 1.6rem;
+  }
+  .top-bar {
+    min-height: 100px;
+  }
+  .topbar-responsive .menu .topbar-responsive-button {
+    width: 100%;
+    margin: 0.875rem 0;
+  }
+  .topbar-responsive .menu a::after {
+    display: none;
+  }
+  .topbar-responsive .menu a {
+    padding: 0.875rem 0;
+  }
+  .topbar-responsive .menu li:not(:last-child) {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .topbar-responsive .menu li:not(:first-child) {
+    margin-left: 0;
+  }
+  .topbar-responsive {
+    padding: 0.75rem;
+  }
+  .top-bar-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .topbar-responsive .top-bar-title {
+    position: relative;
+    width: 100%;
+  }
+  .topbar-responsive .top-bar-title span {
+    position: absolute;
+    right: 40px;
+    border: 1px solid #3dbe98;
+    border-radius: 5px;
+    padding: 0.25rem 0.45rem;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  .all-tahiti-offers button {
+    padding: 0.85em 0.5em;
+  }
+  .topbar-responsive-links {
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    width: 100%;
+    -webkit-animation: fadeIn 1s ease-in;
+    animation: fadeIn 1s ease-in;
+  }
+  .book-now {
+    padding: 10px 10px;
+  }
+  .book-now__title {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  .book-now__button {
+    padding: 15px 2px 15px 5px;
+    max-width: 200px;
+  }
+  select.island-option-selection {
+    padding: 15px 2px 10px 10px;
+    background: #fff url("../img/logo-icons/rounded-rectangle.png") right center no-repeat;
+    background-position: calc(100% - 2px) center;
+  }
+  .section-title {
+    text-align: center;
+  }
+  .section-subtitle {
+    text-align: center;
+  }
+  .footer__columns {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 200px;
+  }
+  .book-now__content {
+    padding: 20px 28px;
+  }
+  .footer__column {
+    /* min-width: 220px;
+    max-width: 250px; */
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .footer__column {
+    padding-left: 30px;
+  }
+  .footer__column ul li {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+  .expereience-tahiti__titles {
+    margin-bottom: 8rem;
+  }
+  .discover-tahiti__text {
+    font-size: 1rem;
+  }
+  .footer__logo img {
+    margin-right: 10px;
+  }
+  .grid-margin-y > .cell.social-buttons {
+    margin-bottom: 20px;
+  }
+}
+
+/* Medium only  640-1 022,992px*/
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+  .topbar-responsive .menu a {
+    font-size: 16px;
+  }
+  .topbar-responsive .menu li:not(:last-child) {
+    margin-right: 16px;
+  }
+  .topbar-responsive .menu li:not(:first-child) {
+    margin-left: 0px;
+  }
+  .topbar-responsive .menu a:after {
+    margin-left: 8px;
+  }
+  .topbar-responsive .menu li {
+    margin-top: 6px;
+  }
+  .book-now {
+    padding: 135px 60px;
+  }
+  .book-now__title {
+    font-size: 2rem;
+    margin-bottom: 18px;
+  }
+  .book-now__text {
+    font-size: 1rem;
+    line-height: 24px;
+  }
+
+  .footer__logo img {
+    margin-right: 10px;
+  }
+}
+
+/* 1150px */
+@media screen and (max-width: 71.875em) {
+  .book-now__content {
+    padding: 52.5px 28px 26px;
+    margin-bottom: 24px;
+  }
+}
+
+/* 1 022,992px  */
+@media screen and (max-width: 63.9375em) {
+  .footer__columns {
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+  }
+  .footer__logo {
+    margin-right: 0px;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .why-tahiti__content p {
+    margin-bottom: 0;
+  }
+  .why-tahiti__content {
+    gap: 30px;
+  }
+}
+/* 1200px */
+@media screen and (min-width: 63.9375em) and (max-width: 75em) {
+  .footer__columns {
+    min-width: 400px;
+    -webkit-column-gap: 20px;
+    -moz-column-gap: 20px;
+    column-gap: 20px;
+  }
+}
